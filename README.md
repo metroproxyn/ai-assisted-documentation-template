@@ -4,7 +4,7 @@ This repository demonstrates how AI can be integrated into a documentation workf
 It uses GitHub Actions and LLMs to automatically suggest documentation updates when code or API specs change.
 
 ## Features
-- **Prompts Library** (`prompts.md`) with reusable LLM prompts for technical writing tasks
+- **Prompts Library** `prompts.md` and `prompts-advanced.md` with reusable LLM prompts for technical writing tasks
 - **GitHub Action** (`auto-docs-update.yml`) that detects changes in code/specs and generates draft documentation updates
 - **AI Update Script** (`ai_doc_update.py`) that calls an LLM API and produces Markdown suggestions
 - **Pull Request Template** to guide reviewers and ensure AI outputs are verified

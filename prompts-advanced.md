@@ -65,9 +65,7 @@ Write a draft for a user guide section for the function: "[Function Name]". Use 
     3.  **Instructions:** A numbered list of steps to perform the core task.
     4.  **Example:** A sample of the expected output or result.
 
-<context>
 [Detailed function description, API parameters, screenshots, etc., go here]
-</context>
 
 
 **2.2. Create a "Getting Started" Guide Outline**

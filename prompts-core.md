@@ -5,6 +5,7 @@ This file contains reusable prompts I use on my position of Technical Writer to 
 ---
 
 ## 1. Generate API Reference from OpenAPI
+
 ```text
 System: You are a senior technical writer.  
 User: Given the following OpenAPI spec: <paste>, generate a complete API reference page including:  
@@ -18,6 +19,7 @@ Also list 5 follow-up questions to clarify with developers.
 ```
 
 ## 2. Convert Raw Data to Markdown Table
+
 ```text
 Convert the following list into a Markdown table with columns: Parameter | Type | Default | Description | Example.  
 Group parameters by category and mark required ones with "✓".

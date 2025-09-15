@@ -4,16 +4,16 @@ This collection moves beyond basic drafting and editing. Here, you will find pro
 
 ---
 
-### **1. Research & Analysis**
+## 1. Research & Analysis
 
 **1.1. Generate User Questions (Improved)**
-**Prompt:**
+ 
 ```text
 Act as a technical writer. Based on the following product description: "[Insert product description]". Generate a list of 10-15 questions a complete beginner might have when first encountering the user interface. Group the questions into logical categories such as "Setup & Configuration," "Basic Operations," and "Troubleshooting."
 ```
 
 **1.2. Identify Target Audience & Pain Points (Improved)**
-**Prompt:**
+ 
 ```text
 The product is designed for [describe product purpose]. Define three distinct user personas for this product. For each persona, describe their:
 1. **Primary goal:** What they want to achieve.
@@ -23,7 +23,7 @@ The product is designed for [describe product purpose]. Define three distinct us
 ```
 
 **1.3. Analyze Competitor Documentation (New)**
-**Prompt:**
+ 
 ```text
 Analyze the structure and content of the following competitor's documentation page: [Insert URL]. Provide a brief analysis that includes:
 *   **Overall structure:** How is the information organized?
@@ -33,7 +33,7 @@ Analyze the structure and content of the following competitor's documentation pa
 ```
 
 **1.4. Verify Accuracy & Identify Gaps (CRITICAL - New)**
-**Prompt:**
+ 
 ```text
 You are a technical writer reviewing a draft for factual accuracy and completeness.
 **Text to review:** [Insert text]
@@ -51,7 +51,7 @@ Analyze the text and provide your findings in a table with the following columns
 ### **2. Drafting & Writing**
 
 **2.1. Draft a User Guide Section (Improved)**
-**Prompt:**
+ 
 ```
 Write a draft for a user guide section for the function: "[Function Name]". Use ONLY the information provided within the <context></context> tags. Do not add information not present in the context.
 
@@ -69,7 +69,7 @@ Write a draft for a user guide section for the function: "[Function Name]". Use 
 ```
 
 **2.2. Create a "Getting Started" Guide Outline (New)**
-**Prompt:**
+ 
 ```
 Create a detailed outline for a "Getting Started" guide for [Product Name]. The audience is a non-technical end-user. The outline should include:
 *   **Title:** Getting Started with [Product Name]
@@ -80,7 +80,7 @@ Create a detailed outline for a "Getting Started" guide for [Product Name]. The 
 ```
 
 **2.3. Draft an API Method Documentation (New)**
-**Prompt:**
+ 
 ```
 Write comprehensive documentation for the following API method. Structure it as follows:
 
@@ -103,10 +103,10 @@ Provide a clear JSON example of a successful response.
 
 ---
 
-### **3. Editing & Improvement**
+### 3. Editing & Improvement
 
 **3.1. Improve Readability & Clarity (Improved)**
-**Prompt:**
+ 
 ```
 Improve the readability and clarity of the following text. Apply these specific edits:
 1.  **Sentence Length:** Break down long sentences (target: under 25 words).
@@ -120,7 +120,7 @@ After revising the text, provide a brief summary of the changes you made and why
 ```
 
 **3.2. Adapt Tone for Different Audiences (New)**
-**Prompt:**
+ 
 ```
 Rewrite the following technical paragraph for three different audiences. Preserve the core information but adapt the tone, detail, and language.
 
@@ -141,10 +141,10 @@ Rewrite the following technical paragraph for three different audiences. Preserv
 
 ---
 
-### **4. Code Documentation & Explanation**
+### 4. Code Documentation & Explanation
 
 **4.1. Explain a Complex Code Block (New)**
-**Prompt:**
+ 
 ```
 Act as a developer explaining code to a technical writer. Explain the purpose and function of the following code block in plain English. Structure your explanation as follows:
 1.  **Overall Purpose:** What does this code do in the context of the application?
@@ -160,8 +160,8 @@ Act as a developer explaining code to a technical writer. Explain the purpose an
 ### **5. Localization & Translation**
 
 **5.1. Check Localization Quality (New)**
-**Prompt:**
-```
+ 
+```text
 You are assisting with the localization of documentation. Review the following source text and its translation for cultural appropriateness, technical accuracy, and natural flow.
 
 **Source (English):**
@@ -178,11 +178,11 @@ Provide feedback on:
 
 ---
 
-### **6. Process & Collaboration**
+### 6. Process & Collaboration
 
 **6.1. Draft an Email to an SME (Subject Matter Expert) (New)**
-**Prompt:**
-```
+ 
+```text
 Draft a polite and professional email to a Subject Matter Expert (SME) to request a review of your documentation draft. The email should:
 *   Be concise and respectful of their time.
 *   Clearly state the document/topic you need reviewed ([Insert Topic]).
@@ -192,8 +192,8 @@ Draft a polite and professional email to a Subject Matter Expert (SME) to reques
 ```
 
 **6.2. Create a Documentation Review Checklist (New)**
-**Prompt:**
-```
+ 
+```text
 Create a comprehensive checklist for peer reviews or SME reviews of technical documentation. The checklist should include categories for:
 *   **Accuracy:** Does the content match the product/spec?
 *   **Completeness:** Are all necessary topics covered? Are there missing steps?

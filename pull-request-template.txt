@@ -1,0 +1,23 @@
+# AI-Suggested Documentation Update
+
+## Summary
+<!-- Short description of what changed and why -->
+
+## Changed Files
+<!-- List affected documentation files -->
+
+- [ ] File 1
+- [ ] File 2
+
+## AI Suggestions
+<!-- Paste relevant excerpts from AI_DOC_UPDATE.md -->
+
+## Reviewer Checklist
+- [ ] Technical accuracy verified with SME
+- [ ] Style and tone match documentation guidelines
+- [ ] No sensitive data exposed
+- [ ] Examples tested (where applicable)
+
+---
+
+> **Note:** This PR was generated with AI assistance. Final approval and edits are required before merge.
